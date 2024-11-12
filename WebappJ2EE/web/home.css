@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.logout-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.logout-button button {
+    padding: 5px 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button button:hover {
+    background-color: #c00;
+}
