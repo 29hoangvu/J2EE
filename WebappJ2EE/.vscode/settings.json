@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Năm 4\\jar_files\\jakarta.jakartaee-api-11.0.0-M4.jar"
+    ]
+}
